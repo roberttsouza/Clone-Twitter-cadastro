@@ -33,3 +33,60 @@
     font-size: 22px;
     color: #ffffff;
 }
+
+
+
+.dados{
+    background: #14202B;
+}
+
+.dados-content{
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.dados-content input{
+    padding: 20px 10px;
+    margin-top: 10px;
+    border-radius: 6px;
+    border: solid 1px #3D5466;
+    background:transparent;
+    color: #ffffff;
+    outline: none;
+}
+
+.dados-content input:focus{
+    border:#74CAFE solid 2px ;
+}
+
+.dados-content input + input{
+    margin-left: 10px;
+}
+
+.dados-content button{
+    padding: 15px 30px;
+    border-radius: 50px;
+    margin-left: 10px;
+    background: transparent;
+    border: solid 1.5px #74CAFE;
+    color: #74CAFE;
+    cursor: pointer;
+    transition: .3s;
+}
+
+.dados-content button:hover{
+    background: #74c9fe1f;
+}
+
+.esqueceu{
+    margin-left: 220px;
+    margin-top: 10px;
+}
+
+.esqueceu a{
+    color: #74CAFE;
+}
+
+.esqueceu a:hover{
+    text-decoration: underline;
+}
