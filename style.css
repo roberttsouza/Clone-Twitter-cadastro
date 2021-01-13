@@ -1,0 +1,35 @@
+*{
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    list-style: none;
+}
+
+.container{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.bg-info{
+    background: #74CAFE;
+    background-image: url(img/twitter-bg.svg);
+    background-repeat: no-repeat;
+    background-position: right;
+    background-size: 180%;
+    background-position-x: -150px;
+    height: 95vh;
+}
+
+.descricao-info{
+    max-width: 450px;
+    margin: auto;
+    position: relative;
+    top: 35%;
+
+}
+
+.descricao-info h3{
+    padding: 20px 50px;
+    font-size: 22px;
+    color: #ffffff;
+}
