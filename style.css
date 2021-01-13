@@ -90,3 +90,44 @@
 .esqueceu a:hover{
     text-decoration: underline;
 }
+
+.dados-inscricao{
+    max-width: 400px;
+    display: block;
+}
+
+.dados-inscricao img{
+    width: 50px;
+    margin-top: 150px;
+}
+
+.dados-inscricao h2{
+    margin-top: 20px;
+    font-size: 35px;
+    color: #ffffff;
+}
+
+.dados-inscricao h3{
+    margin-top: 50px;
+    color: #ffffff;
+    font-size: 17px;
+}
+
+.btn-action{
+    position: relative;
+    text-align: center;
+    margin-top: 30px;
+    display: block;
+    
+}
+
+.btn-action #inscrever{
+    padding: 20px 160px;
+    background: #74CAFE;
+    border-radius: 50px;
+}
+
+.btn-action #entrar{
+    margin-top: 20px;
+
+}
