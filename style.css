@@ -3,6 +3,8 @@
     margin: 0;
     text-decoration: none;
     list-style: none;
+    font-family: 'Oxygen', sans-serif;
+
 }
 
 .container{
@@ -17,7 +19,7 @@
     background-position: right;
     background-size: 180%;
     background-position-x: -150px;
-    height: 90vh;
+    height: 95vh;
 }
 
 .descricao-info{
@@ -46,7 +48,7 @@
 }
 
 .dados-content input{
-    padding: 20px 10px;
+    padding: 20px 18px;
     margin-top: 10px;
     margin-left: 80px;
     border-radius: 6px;
@@ -57,7 +59,7 @@
 }
 
 .dados-content input:focus{
-    border:#74CAFE solid 2px ;
+    border:#1f9ce9 solid 2px ;
 }
 
 .dados-content input + input{
@@ -69,10 +71,11 @@
     border-radius: 50px;
     margin-left: 10px;
     background: transparent;
-    border: solid 1.5px #74CAFE;
-    color: #74CAFE;
+    border: solid 1.5px #1f9ce9;
+    color: #1f9ce9;
     cursor: pointer;
     transition: .3s;
+    font-size: 15px;
 }
 
 .dados-content button:hover{
@@ -80,12 +83,13 @@
 }
 
 .esqueceu{
-    margin-left: 300px;
+    margin-left: 290px;
     margin-top: 10px;
+    font-size: 12px;
 }
 
 .esqueceu a{
-    color: #74CAFE;
+    color: #1f9ce9;
 }
 
 .esqueceu a:hover{
@@ -100,19 +104,19 @@
 
 .dados-inscricao img{
     width: 50px;
-    margin-top: 50px;
+    margin-top: 35%;
 }
 
 .dados-inscricao h2{
     margin-top: 20px;
-    font-size: 35px;
+    font-size: 30px;
     color: #ffffff;
 }
 
 .dados-inscricao h3{
     margin-top: 50px;
     color: #ffffff;
-    font-size: 17px;
+    font-size: 15px;
 }
 
 .btn-action{
@@ -137,7 +141,7 @@
 
 .btn-action #entrar{
     position: relative;
-    padding: 13px 170px;
+    padding: 13px 173px;
     border-radius: 50px;
     border: solid 1px #74CAFE;
     background: transparent;
@@ -153,7 +157,7 @@
 
 
 .footer{
-    height: 10vh;
+    height: 5vh;
     text-align: center;
     background: #14202B;
 }
@@ -161,12 +165,14 @@
     position: relative;
     max-width: 1200px;
     margin: auto;
+    display: inline;
 }
 
 .footer-container a{
-    padding: 20px 0;
+    padding: auto 0;
     color: #7999A6; 
     margin: 20px 0; 
+    font-size: 12px;
 }
 
 .footer-container a:hover{
@@ -175,4 +181,10 @@
 
 .footer-container a + a{
     margin: 12px;
+}
+
+blockquote{
+    color: #7999A6;
+    font-size: 12px;
+    display: inline;
 }
